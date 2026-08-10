@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Strand & Co. — Handmade Beaded Bracelets & Necklaces</title>
-<meta name="description" content="Beaded bracelets and necklaces, made to be worn every day.">
+<title>VIP Accessories— Handmade Bracelets & Necklaces</title>
+<meta name="description" content="Beaded bracelets and necklaces, made to be worn every day.bracelets, bracelet, accessories, fashion accessories, men's bracelets, women's bracelets, unisex bracelets, handmade bracelets, beaded bracelets, stylish bracelets, trendy bracelets, premium bracelets, custom bracelets, bracelets Egypt, buy bracelets Egypt, bracelets online, affordable bracelets, luxury bracelets, wrist accessories, jewelry, fashion jewelry, gift bracelets, couple bracelets, friendship bracelets, VIP Accessories">
 
 <!-- Fonts: a characterful display serif for headings, a clean grotesk for body/UI -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +23,7 @@
     --ink-soft:      #6E675C;
     --line:          #DCD2BE;
     --cord:          #B9A583;   /* thread / cord tan */
-    --berry:         #7E2E4D;   /* rich bead berry — primary accent */
+    --berry:         #1d1456;   /* rich bead berry — primary accent */
     --berry-dark:    #5E2039;
     --sage:          #6E7A5C;   /* secondary accent */
     --white:         #FFFFFF;
@@ -180,11 +180,22 @@
   .btn:disabled{ opacity:.55; cursor:not-allowed; }
 
   .hero-art{
-    position:relative; aspect-ratio:1/1; border-radius:var(--radius-lg);
-    background:linear-gradient(155deg,var(--panel),var(--bg));
-    display:flex; align-items:center; justify-content:center; overflow:hidden;
-    border:1px solid var(--line);
-  }
+  position:relative;
+  aspect-ratio:1/1;
+  border-radius:var(--radius-lg);
+  background:linear-gradient(155deg,var(--panel),var(--bg));
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  border:1px solid var(--line);
+}
+
+.hero-art img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
   .hero-art svg{ width:78%; height:78%; }
 
   @media (max-width:860px){
@@ -416,32 +427,26 @@
     <section class="hero">
       <div>
         <p class="eyebrow">Made bead by bead</p>
-        <h1>Little strands, <em>worn daily.</em></h1>
-        <p class="lede">Handmade beaded bracelets and necklaces, strung one at a time and made to stack, layer and live on your wrist — not locked away for special occasions.</p>
-        <div class="hero-ctas">
-          <a href="#shop" class="btn btn-primary">Shop the collection</a>
-          <a href="#about" class="btn btn-outline">Our story</a>
-        </div>
-      </div>
-      <div class="hero-art">
-        <svg viewBox="0 0 240 240" fill="none">
-          <path d="M20 130 Q60 60 120 100 T220 90" stroke="#B9A583" stroke-width="3" fill="none" stroke-linecap="round"/>
-          <circle cx="46" cy="112" r="13" fill="#7E2E4D"/>
-          <circle cx="82" cy="90" r="9" fill="#6E7A5C"/>
-          <circle cx="116" cy="102" r="15" fill="#EFE7D8" stroke="#B9A583" stroke-width="2"/>
-          <circle cx="152" cy="88" r="10" fill="#7E2E4D"/>
-          <circle cx="186" cy="96" r="13" fill="#6E7A5C"/>
-          <circle cx="212" cy="88" r="8" fill="#EFE7D8" stroke="#B9A583" stroke-width="2"/>
-          <path d="M30 170 Q90 210 130 165 T220 175" stroke="#B9A583" stroke-width="3" fill="none" stroke-linecap="round"/>
-          <circle cx="60" cy="188" r="10" fill="#EFE7D8" stroke="#B9A583" stroke-width="2"/>
-          <circle cx="100" cy="180" r="14" fill="#6E7A5C"/>
-          <circle cx="150" cy="178" r="9" fill="#7E2E4D"/>
-          <circle cx="190" cy="182" r="12" fill="#EFE7D8" stroke="#B9A583" stroke-width="2"/>
-        </svg>
-      </div>
-    </section>
-  </div>
 
+<h1>Little strands, <em>worn daily.</em></h1>
+
+<p class="lede">
+  Handmade beaded bracelets and necklaces, strung one at a time and made to stack, layer and live on your wrist — not locked away for special occasions.
+</p>
+
+<div class="hero-ctas">
+  <a href="#shop" class="btn btn-primary">Shop the collection</a>
+  <a href="#about" class="btn btn-outline">Our story</a>
+</div>
+
+</div>
+
+<div class="hero-art">
+  <img src="images/hero.jpg" alt="Handmade beaded bracelets">
+</div>
+
+</section>
+</div>
   <svg class="thread-divider" viewBox="0 0 1180 34" preserveAspectRatio="none" aria-hidden="true">
     <path d="M0 17 Q 100 0, 200 17 T 400 17 T 600 17 T 800 17 T 1000 17 T 1180 17"/>
     <circle cx="200" cy="17" r="5"/><circle cx="600" cy="17" r="5"/><circle cx="1000" cy="17" r="5"/>
