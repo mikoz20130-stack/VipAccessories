@@ -49,25 +49,25 @@ const PRODUCTS = [
     name: "Black Glossy Men Braclete",
     price: 300,
     image: "Images/IMG_5481.jpg"
-  }
+  },
   {
     id: "Blue Eye Braclete & White Star Neckless",
     name: "Blue Eye Braclete & White Star Neckless",
     price: 850,
     image: "Images/Image1.png"
-  }
+  },
   {
     id: "Brown Simple 3qeq Men Braclete",
     name: "Brown Simple 3qeq Men Braclete",
     price: 350,
     image: "Images/Image2.png"
-  }
+  },
   {
     id: "Blue Eye Beaded Braclete",
     name: "Blue Eye Beaded Braclete",
     price: 250,
     image: "Images/Image3.png"
-  }
+  },
   {
     id: "Black & White Men Braclete",
     name: "Black & White Men Braclete",
