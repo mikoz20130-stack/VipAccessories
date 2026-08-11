@@ -57,8 +57,8 @@ const PRODUCTS = [
     image: "Images/Image1.png"
   },
   {
-    id: "Brown Simple 3qeq Men Braclete",
-    name: "Brown Simple 3qeq Men Braclete",
+    id: "Brown Simple Agate Men Braclete",
+    name: "Brown Simple Agate Men Braclete",
     price: 350,
     image: "Images/Image2.png"
   },
@@ -73,6 +73,24 @@ const PRODUCTS = [
     name: "Black & White Men Braclete",
     price: 550,
     image: "Images/Image4.png"
+  },
+  {
+    id: "Red Turtle String Braclete",
+    name: "Red Turtle String Braclete",
+    price: 300,
+    image: "Images/Image22.png"
+  },
+  {
+    id: "Red & Purple Turtle String Braclete",
+    name: "Red & Purple Turtle String Braclete",
+    price: 550,
+    image: "Images/Image23.png"
+  },
+  {
+    id: "Simple Blue Bracelet",
+    name: "Simple Blue Bracelet",
+    price: 250,
+    image: "Images/Image67.png"
   }
 ];
 
