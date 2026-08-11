@@ -73,24 +73,25 @@ const PRODUCTS = [
     name: "Black & White Men Braclete",
     price: 550,
     image: "Images/Image4.png"
-  },
+  }, 
   {
     id: "Red Turtle String Braclete",
     name: "Red Turtle String Braclete",
     price: 300,
-    image: "Images/Image22.png"
+    image: "images/img23.png"
   },
   {
     id: "Red & Purple Turtle String Braclete",
     name: "Red & Purple Turtle String Braclete",
     price: 550,
-    image: "Images/Image23.png"
+
+    image: "images/img67.png"
   },
   {
     id: "Simple Blue Bracelet",
     name: "Simple Blue Bracelet",
     price: 250,
-    image: "Images/Image67.png"
+    image: "images/img12.png"
   }
 ];
 
